@@ -1,25 +1,732 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Div_Principal } from './styles/styles';
+import GlobalStyle from './styles/globalStyles'; 
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <GlobalStyle />
+    <Div_Principal>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div><div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div className="row">
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div className="cube">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </Div_Principal>
+    </>
   );
 }
-
-export default App;
