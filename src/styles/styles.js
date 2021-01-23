@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 //teste
-export const Div_Principal = styled.div`
+export const Div_principal = styled.div`
     position: relative;
     height: 100vh;
     overflow: hidden;

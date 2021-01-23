@@ -1,12 +1,12 @@
 import React from 'react';
-import { Div_Principal } from './styles/styles';
+import { Div_principal } from './styles/styles';
 import GlobalStyle from './styles/globalStyles'; 
 
 export default function App() {
   return (
     <>
     <GlobalStyle />
-    <Div_Principal>
+    <Div_principal>
       <div className="row">
         <div className="cube">
           <span></span>
@@ -726,7 +726,7 @@ export default function App() {
           <span></span>
         </div>
       </div>
-    </Div_Principal>
+    </Div_principal>
     </>
   );
 }
